@@ -1,26 +1,26 @@
 <template>
   <main id="app">
-    <index></index>
+	<index></index>
   </main>
 </template>
 
 <script>
-import Index from './components/Index.vue'
+  import Index from './components/Index.vue'
 
-export default {
-  name: 'app',
-  components: {
-    Index
+  export default {
+    name: 'app',
+    components: {
+      Index
+    }
   }
-}
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  padding-top: 30px;
-}
+  #app {
+	font-family: 'Avenir', Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #2c3e50;
+	padding-top: 30px;
+  }
 </style>
